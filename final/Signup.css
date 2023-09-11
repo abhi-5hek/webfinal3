@@ -1,0 +1,155 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("backgroundimage2.jpg");
+    
+}
+.sign-up{
+    width:800px;
+    min-height: 400px;
+    overflow: hidden;
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+    box-shadow: 15px 5px 30px rgba(0, 0, 0, 0.3);
+}
+.left{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    
+}
+.icon1{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.icon1 img{
+    margin: 10px;
+    justify-content: flex-start;
+    border-radius: 50%;
+    width: 60px;
+    box-shadow: 3px 8px 12px rgb(185, 181, 181);
+}
+.image{
+    flex-basis: 50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.image img{
+    display: block;
+    width: 100%;
+    margin-top:10px;
+}
+.signform h1{
+    text-align: center;
+    margin-top: 25px;
+    font-size: 2.5em;
+
+    
+}
+.signform{
+    text-align: center;
+    width:100%;
+    margin-left: 30px;
+    padding:25px;
+    background-color: rgb(196, 215, 244);
+}
+
+.textbox{
+    border-radius: 3px;
+    background:transparent;
+    width:100%;
+    outline:none;
+    min-height: 35px;
+   
+}
+.textbox input{
+    background: aliceblue;
+    width:80%;
+    outline:none;
+    border:1px solid;
+
+    padding-left:30px;
+    min-height: 32px;
+    border-radius: 10px;
+}
+::placeholder{
+    color: #777;
+}
+.textbox i{
+    position: absolute;
+    color:#777;
+    font-size: 15px;
+    padding: 9px;
+
+}
+#link{
+
+    background-color:#49ce6c;
+    padding-left:100px;
+    padding-right: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 1px ;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-left: px;
+    margin-top: 0px;
+    font-size: 17px;
+    color:black;
+    box-shadow: 0px 5px 10px #335c2f78;
+   
+}
+.social{
+    margin-top: 20px;
+    list-style: none;
+    text-align: center;
+    padding-left: 2%;
+}
+.social li{
+    display: inline-block;
+
+}
+.social li i{
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+    border: 1px solid black;
+    border-radius: 50%;
+    font-size: 18px;
+}
+.social a{
+    color:black;
+}
+
+@media(max-width:768px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .sign-up{
+        flex-direction: column;
+        width:100%;
+    }
+    .signform{
+        width: 100%;
+
+}
+.left{
+    width:100%;
+}
+}
